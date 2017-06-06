@@ -6,54 +6,48 @@
           "node": {
             "hostnames": {
               "manage": [
-                "node0"
+                "minicloudnode6"
               ],
               "storage": [
-                "192.168.10.100"
+                "192.168.11.26"
               ]
             },
             "zone": 1
           },
           "devices": [
-            "/dev/vdb",
-            "/dev/vdc",
-            "/dev/vdd"
+            "/bigdata/arangodb"
           ]
         },
         {
           "node": {
             "hostnames": {
               "manage": [
-                "node1"
+                "minicloudnode5"
               ],
               "storage": [
-                "192.168.10.101"
+                "192.168.1.25"
               ]
             },
             "zone": 1
           },
           "devices": [
-            "/dev/vdb",
-            "/dev/vdc",
-            "/dev/vdd"
+          "/bigdata/arangodb"
           ]
         },
         {
           "node": {
             "hostnames": {
               "manage": [
-                "node2"
+                "minicloudnode4"
               ],
               "storage": [
-                "192.168.10.102"
+                "192.168.1.24"
               ]
             },
             "zone": 1
           },
           "devices": [
-            "/dev/vdb",
-            "/dev/vdc",
-            "/dev/vdd"
+            "/bigdata/arangodb"
           ]
         }
       ]
